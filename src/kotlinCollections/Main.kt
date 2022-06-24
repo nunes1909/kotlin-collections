@@ -1,7 +1,7 @@
 package kotlinCollections
 
-import kotlinCollections.setCollections.testaSetCollection
+import kotlinCollections.mapCollections.testaMapCollection
 
 fun main(){
-    testaSetCollection()
+    testaMapCollection()
 }

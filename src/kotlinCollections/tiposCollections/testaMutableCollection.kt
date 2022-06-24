@@ -1,6 +1,6 @@
-package `base-collection`
+package kotlinCollections.tiposCollections
 
-fun main(){
+fun testaMutableCollection() {
     val banco = BancoDeNomes()
     val nomesSalvos: MutableCollection<String> =
         banco.nomes as MutableCollection<String>

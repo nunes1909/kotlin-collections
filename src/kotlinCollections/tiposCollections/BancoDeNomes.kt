@@ -1,4 +1,4 @@
-package `base-collection`
+package kotlinCollections.tiposCollections
 
 class BancoDeNomes {
     companion object {

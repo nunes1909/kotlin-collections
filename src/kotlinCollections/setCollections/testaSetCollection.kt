@@ -6,9 +6,18 @@ fun testaSetCollection() {
 
     val assistiramAmbos: MutableSet<String> = mutableSetOf()
 
+    println("Union: ${assistiramAndroid union assistiramKotlin}")
+    println("Subtract: ${assistiramAndroid subtract assistiramKotlin}")
+    println("Intersect: ${assistiramKotlin intersect assistiramAndroid}")
+
     assistiramAmbos.addAll(assistiramAndroid)
     assistiramAmbos.addAll(assistiramKotlin)
-    assistiramAmbos.add("Gabriel")
 
-    println(assistiramAmbos)
+    /**
+     * No exemplo abaixo não será possível manipular
+     * a coleção assistiramAmbosList pois ela recebe um toSet().
+     */
+
+    val assistiramAmbosList = assistiramAmbos.toSet()
+//    assistiramAmbosList.addAll()
 }

@@ -1,7 +1,7 @@
 package kotlinCollections
 
-import kotlinCollections.mapCollections.testaMapCollection
+import kotlinCollections.leituraFiltroMap.testaLeituraFiltroMap
 
 fun main(){
-    testaMapCollection()
+    testaLeituraFiltroMap()
 }

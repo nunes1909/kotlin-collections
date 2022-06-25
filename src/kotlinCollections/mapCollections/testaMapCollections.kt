@@ -1,7 +1,7 @@
 package kotlinCollections.mapCollections
 
 fun testaMapCollection(){
-    val pedidos = mapOf(
+    val pedidos = mutableMapOf(
         Pair(1, "Produto Teste"),
         2 to "Produto Teste 2"
     )
@@ -11,8 +11,20 @@ fun testaMapCollection(){
         println("Pedido: $it")
     }
 
-    for (pedido in pedidos){
-        println("Numero do pedido = ${pedido.key}")
-        println("Valor do pedido = ${pedido.value}")
+    for (p in pedidos){
+        println("Numero do pedido = ${p.key}")
+        println("Valor do pedido = ${p.value}")
     }
+
+    pedidos[3] = "drtdrt"
+    pedidos.put(4, "TESTANDO")
+    println(pedidos)
+    pedidos[3] = "AAA"
+    println(pedidos)
+    pedidos.putIfAbsent(3, "GGGG")
+    println(pedidos)
+
+    pedidos.remove(1) // removeu
+    pedidos.remove(2, "Produto") // nao removeu
+
 }

@@ -61,11 +61,11 @@ fun testaLeituraFiltroMap() {
 //    pedidos += (setOf(4 to "Teste 4", 5 to "Teste 5"))
 //    println(pedidos)
 
-    println(pedidos)
-    pedidos.keys.remove(1)
-    println(pedidos)
-
-    pedidos.values.remove("Teste 5")
-    println(pedidos)
+//    println(pedidos)
+//    pedidos.keys.remove(1)
+//    println(pedidos)
+//
+//    pedidos.values.remove("Teste 5")
+//    println(pedidos)
 }
 

@@ -1,7 +1,7 @@
 package kotlinCollections
 
-import kotlinCollections.leituraFiltroMap.testaLeituraFiltroMap
+import kotlinCollections.associacaoAgrupamento.testaAssociacaoAgrupamento
 
 fun main(){
-    testaLeituraFiltroMap()
+    testaAssociacaoAgrupamento()
 }
